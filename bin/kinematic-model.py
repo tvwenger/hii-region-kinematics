@@ -140,7 +140,12 @@ if __name__ == "__main__":
                         --kinematic outflow <speed> <angle> <sky_pa> <los_pa>
                         where <speed> is radial outflow speed (km/s)
                         <angle> is opening angle (deg)
-                        <sky_pa> and <los_pa> define positive velocity outflow axis"""
+                        <sky_pa> and <los_pa> define positive velocity outflow axis
+
+                        --kinematic expansion <alpha> <beta>
+                        where <alpha> is the expansion speed at the surface (km/s)
+                        and <beta> is the exponential of the power law
+                        """
         ),
     )
     PARSER.add_argument(

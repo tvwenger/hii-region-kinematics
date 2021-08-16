@@ -1,8 +1,8 @@
-# HRM: HII Region Kinematics
+# HRK: HII Region Kinematics
 Generate simulated radio recombination line observations of HII regions with
 various internal kinematic structure. Fit single Gaussians to each pixel of the
 simulated observations and generate images of the fitted Gaussian center
-and full-width half-maximum (FWHM) linewidth. Please reference (TBD).
+and full-width half-maximum (FWHM) linewidth. Please reference https://doi.org/10.5281/zenodo.5205092.
 
 ## Installation
 The easiest way to install this package is
